@@ -25,3 +25,13 @@ function appendKitten(name) {
   var endKitten = kittens.push(name)
   return endKitten
 }
+
+function prependKitten(name) {
+  var begKitten = kittens.unshift(name)
+  return begKitten
+}
+
+function removeLastKitten() {
+  var firstKittens = kittens.pop()
+  return firstKittens
+}
